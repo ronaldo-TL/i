@@ -6,7 +6,7 @@
   --envelope-cover: #e6cfa7;
   --shadow-color: rgba(0, 0, 0, 0.2);
   --txt-color: #444;
-  --heart-color: rgb(252, 8, 231);
+  --heart-color: rgb(252, 8, 8);
 }
 body{
   margin: 0;
@@ -112,4 +112,21 @@ body{
 .flap > .heart {
   transform: rotate(90deg);
   transition-delay: 0.4s;
+}
+
+
+.btnfos {
+  display: inline-block;
+  padding: 2px 20px;
+  font-size: 8px;
+  color: white; /* Color del texto */
+  background-color: red; /* Color de fondo */
+  text-decoration: none; /* Quitar subrayado */
+  border-radius: 5px; /* Bordes redondeados */
+  transition: background-color 0.3s, transform 0.3s; /* Transición suave */
+}
+
+.btnfos:hover {
+  background-color: darkred; /* Color de fondo al pasar el mouse */
+  transform: scale(1.05); /* Aumentar ligeramente el tamaño */
 }
